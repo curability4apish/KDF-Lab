@@ -39,7 +39,7 @@ IsaacVault 透過 [ISAAC](https://en.wikipedia.org/wiki/ISAAC_(cipher)) [安全�
 本專案藉助 [ISAAC](https://www.burtleburtle.net/bob/c/readable.c) 生成安全的密碼。
 ## MIT License
 ```
-Copyright (c) 2024
+Copyright (c) 2024 bc6048
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
