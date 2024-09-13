@@ -9,7 +9,7 @@ IsaacVault 是一款基於安全亂數產生器的離線密碼管理工具。
 你可以這麼做，不過多一曾密碼保護你所記錄密碼的工具，能避免間諜軟體之類未經授權的存取或系統性漏洞造成的密碼外洩風險。
 ## 為什麼要使用 IsaacVault
 ##### 零足跡
-它透過 [ISAAC](https://en.wikipedia.org/wiki/ISAAC_(cipher)) [安全亂數產生器](https://zh.wikipedia.org/zh-tw/%E5%AF%86%E7%A0%81%E5%AD%A6%E5%AE%89%E5%85%A8%E4%BC%AA%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90%E5%99%A8)的驅動與你的mainkey、sitekey為你查詢安全的密碼。因此它不需要網路權限，也不會儲存任何密碼到裝置，以此確保安全性。
+它透過 [ISAAC](https://en.wikipedia.org/wiki/ISAAC_(cipher)) [安全亂數產生器](https://zh.wikipedia.org/zh-tw/%E5%AF%86%E7%A0%81%E5%AD%A6%E5%AE%89%E5%85%A8%E4%BC%AA%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90%E5%99%A8)的驅動與你的 mainkey、sitekey 為你查詢安全的密碼。因此它不需要網路權限，也不會儲存任何密碼到裝置，以此確保安全性。
 ##### 無網路權限
 如果你注重密碼跨裝置同步的方便性，你可以選擇線上密碼管理工具。如果你更注重密碼的控制權，或者對任何線上密碼管理提供商的隱私政策或安全性保持疑慮，也許 IsaacVault 就是你正在找的。
 ##### 零知識密碼生成與管理
