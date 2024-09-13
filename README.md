@@ -15,7 +15,7 @@ IsaacVault 是一款基於安全亂數產生器的離線密碼管理工具。
 ##### 零知識密碼生成與管理
 它根據你的 mainkey 與 sitekey 來幫你查找安全的密碼。因此除了你，沒有人可以用任何方式知道你的密碼，但除非有人知道你的 mainkey、sitekey，並知道你的密碼管理工具是IsaacVault。
 ##### 能抵禦暴力、統計式攻擊
-IsaacVault 透過 [ISAAC](https://en.wikipedia.org/wiki/ISAAC_(cipher)) [安全亂數產生器](https://zh.wikipedia.org/zh-tw/%E5%AF%86%E7%A0%81%E5%AD%A6%E5%AE%89%E5%85%A8%E4%BC%AA%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90%E5%99%A8)的驅動與你的mainkey、sitekey為你查詢安全的密碼。由於 ISAAC 具有不低於 [2^40 的週期](https://www.burtleburtle.net/bob/rand/isaacafa.html)，如果任何人不是同時知道你的 mainkey 與 sitekey，就無法同時知道你為該網站平台所設的密碼。任何人如果只知道你的一個網站平台的密碼，他無法透過任何方法計算出你的 mainkey 與 sitekey。
+IsaacVault 透過 [ISAAC](https://en.wikipedia.org/wiki/ISAAC_(cipher)) [安全亂數產生器](https://zh.wikipedia.org/zh-tw/%E5%AF%86%E7%A0%81%E5%AD%A6%E5%AE%89%E5%85%A8%E4%BC%AA%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90%E5%99%A8)的驅動與你的 mainkey、sitekey 為你查詢安全的密碼。由於 ISAAC 具有不低於 [2^40 的週期](https://www.burtleburtle.net/bob/rand/isaacafa.html)，如果任何人不是同時知道你的 mainkey 與 sitekey，就無法同時知道你為該網站平台所設的密碼。任何人如果只知道你的一個網站平台的密碼，他無法透過任何方法計算出你的 mainkey 與 sitekey。
 
 
 ## 使用步驟
