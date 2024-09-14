@@ -24,7 +24,7 @@ IsaacVault 透過 [ISAAC](https://en.wikipedia.org/wiki/ISAAC_(cipher)) [安全�
 ##### 輸入你的網站金鑰
 可為 網站名稱、應用程式包名 或 網站域名
 ##### 找到安全的密碼
-隨即查到密碼 ASCII(32-126)、建議的使用者名稱 ASCII(48~57、65~90、97~122)
+隨即查到密碼 ASCII(32-126)、建議的使用者名稱 ASCII(48-57、65-90、97-122)
 
 ![](https://megapx-assets.dcard.tw/images/a7fe32b7-f432-46b5-9533-6f845803f46d/1280.webp)
 
