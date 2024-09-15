@@ -18,7 +18,7 @@ Driven by ISAAC CSPRNG, it search a secure and unique password for you according
 ##### 無網路權限<br>No internet connection
 如果你注重密碼跨裝置同步的方便性，你可以選擇線上密碼管理工具。如果你更注重密碼的控制權，或者對任何線上密碼管理提供商的隱私政策或安全性保持疑慮，也許 IsaacVault 就是你正在找的。
 
-If you prefer convenience of cross-device synchronization of your passwords, you can choose an online password manager. If you prefer control over your passwords, probably you stay skeptical towards the privacy policy of any online password manager, or you just don't want anyone to govern your passwords, maybe this is for you.
+If you prefer convenience of cross-device synchronization of your passwords, you can choose an online password manager. If you prefer control over your passwords, probably you stay skeptical towards the privacy policy or security of any online password manager, or you just don't want anyone to govern your passwords, maybe this is for you.
 
 ##### 能抵禦暴力、統計式攻擊<br>Resistant to brute-force or statistics-based attack.
 
