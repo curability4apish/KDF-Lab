@@ -3,9 +3,11 @@
 我可以不使用密碼管理工具，反而使用幾組自己能記得的密碼就好了嗎？你可以這麼做，不過當你所註冊的平台發生大規模的[資料外洩](https://haveibeenpwned.com/)，你用相同的信箱與密碼所註冊的其他平台也將面臨遭駭的風險。
 
 Instead of a password manager, why not just use several memorable passwords? Of course you can, but when the platforms you have registered happen to breach data due to cyber security flaws, and that you also register another platform with the same email and password, those account have risks of being pwned.
-##### 我可以不使用密碼管理工具，反而使用筆記軟體或文字檔記錄自己的密碼嗎？
 
-你可以這麼做，不過多一層密碼保護你所記錄密碼的工具，能避免間諜軟體之類未經授權的存取或系統性漏洞造成的密碼外洩風險。
+我可以不使用密碼管理工具，反而使用筆記軟體或文字檔記錄自己的密碼嗎？你可以這麼做，不過多一層密碼保護你所記錄密碼的工具，能避免間諜軟體之類未經授權的存取或系統性漏洞造成的密碼外洩風險。
+
+Instead of using a password manager, why not just use a note software or a text file to jot down my passwords? Of course you can, but  encrypting your passwords can mitigate the risks from unauthorized access by spyware or systematic flaws.
+
 ## 為什麼要使用 IsaacVault
 ##### 零足跡
 它透過 [ISAAC](https://en.wikipedia.org/wiki/ISAAC_(cipher)) [安全亂數產生器](https://zh.wikipedia.org/zh-tw/%E5%AF%86%E7%A0%81%E5%AD%A6%E5%AE%89%E5%85%A8%E4%BC%AA%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90%E5%99%A8)的驅動與你的 mainkey、sitekey 為你查詢安全的密碼。因此它不需要網路權限，也不會儲存任何密碼到裝置，以此確保安全性。
