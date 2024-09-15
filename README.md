@@ -11,15 +11,20 @@ Instead of using a password manager, why not just use a note software or a text 
 ## 為什麼要使用 IsaacVault<br>Why IsaacVault?
 
 ##### 零足跡<br>Traceless
-它透過 [ISAAC](https://en.wikipedia.org/wiki/ISAAC_(cipher)) [安全亂數產生器](https://zh.wikipedia.org/zh-tw/%E5%AF%86%E7%A0%81%E5%AD%A6%E5%AE%89%E5%85%A8%E4%BC%AA%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90%E5%99%A8)的驅動與你的 mainkey、sitekey 為你查詢安全的密碼。因此它不需要網路權限，也不會儲存任何密碼到裝置，以此確保安全性。
+它透過 [ISAAC](https://en.wikipedia.org/wiki/ISAAC_(cipher)) [安全亂數產生器](https://zh.wikipedia.org/zh-tw/%E5%AF%86%E7%A0%81%E5%AD%A6%E5%AE%89%E5%85%A8%E4%BC%AA%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90%E5%99%A8)的驅動與你的 mainkey、sitekey (簡稱 mkey, mkey) 為你查詢安全的密碼。因此它不需要網路權限，也不會儲存任何密碼到裝置，以此確保安全性。
 
-Driven by ISAAC CSPRNG, it search a secure and unique password for you according to your **mainkey** and **sitekey**. No interter connection required, and no storage permission granted.
-##### 無網路權限
+Driven by ISAAC CSPRNG, it search a secure and unique password for you according to your **mainkey** and **sitekey** (abbreviated as mkey and skey). No interter connection required, and no storage permission granted.
+
+##### 無網路權限<br>No internet connection
 如果你注重密碼跨裝置同步的方便性，你可以選擇線上密碼管理工具。如果你更注重密碼的控制權，或者對任何線上密碼管理提供商的隱私政策或安全性保持疑慮，也許 IsaacVault 就是你正在找的。
-##### 零知識密碼生成與管理
-它根據你的 mainkey 與 sitekey 來幫你查找安全的密碼。因此除了你，沒有人可以用任何方式知道你的密碼，但除非有人知道你的 mainkey、sitekey，並知道你的密碼管理工具是     IsaacVault。
-##### 能抵禦暴力、統計式攻擊
-IsaacVault 透過 [ISAAC](https://en.wikipedia.org/wiki/ISAAC_(cipher)) [安全亂數產生器](https://zh.wikipedia.org/zh-tw/%E5%AF%86%E7%A0%81%E5%AD%A6%E5%AE%89%E5%85%A8%E4%BC%AA%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90%E5%99%A8)的驅動與你的 mainkey、sitekey 為你查詢安全的密碼。由於 ISAAC 具有不低於 [2^40 的週期](https://www.burtleburtle.net/bob/rand/isaacafa.html)，如果任何人不是同時知道你的 mainkey 與 sitekey，就無法同時知道你為該網站平台所設的密碼。任何人如果只知道你的一個網站平台的密碼，他無法透過任何方法計算出你的 mainkey 與 sitekey。
+
+If you prefer convenience of cross-device synchronization of your passwords, you can choose an online password manager. If you prefer control over your passwords, probably you stay skeptical towards the privacy policy of any online password manager, or you just don't want anyone to govern your passwords, maybe this is for you.
+
+##### 能抵禦暴力、統計式攻擊<br>Resistant to brute-force or statistics-based attack.
+
+除了你，沒有人可以用任何方式知道你使用IsaacVault查詢的密碼，但除非攻擊者知道你的 mkey 和 skey (，所以請妥善保管你的mainkey)。由於 ISAAC 具有不低於 [2^40 的週期](https://www.burtleburtle.net/bob/rand/isaacafa.html)，如果攻擊者不是同時知道你的 mkey 與 skey，就無法同時知道你的密碼。如果攻擊者只知道你的一個密碼，他無法透過任何方法計算出你的 mkey 與 skey。
+
+You and attacker who knows your mkey and skey can access your passwords in IsaacVualt (, so please keep mkey invisible to anyone). Since ISAAC has a period of no less than 2^40, if an attacker don't know your mkey and skey at the same time, he can't know your passwords. If one of your password leaks to an attacker, he can never know mkey or skey, until ISAAC cipher is broken.
 
 
 ## 使用步驟
