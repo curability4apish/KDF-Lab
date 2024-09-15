@@ -20,7 +20,7 @@ Driven by ISAAC CSPRNG, it search a secure and unique password for you according
 
 If you prefer convenience of cross-device synchronization of your passwords, you can choose an online password manager. If you prefer control over your passwords, probably you stay skeptical towards the privacy policy or security of any online password manager, or you just don't want anyone to govern your passwords, maybe this is for you.
 
-##### 能抵禦暴力、統計式攻擊<br>Resistant to brute-force or statistics-based attack.
+##### 能抵禦暴力、統計式攻擊<br>Resistant to brute-force or statistics-based attack
 
 除了你，沒有人可以用任何方式知道你使用IsaacVault查詢的密碼，但除非攻擊者知道你的 mkey 和 skey (，所以請妥善保管你的mainkey)。由於 ISAAC 具有不低於 [2^40 的週期](https://www.burtleburtle.net/bob/rand/isaacafa.html)，如果攻擊者不是同時知道你的 mkey 與 skey，就無法同時知道你的密碼。如果攻擊者只知道你的一個密碼，他無法透過任何方法計算出你的 mkey 與 skey。
 
@@ -42,7 +42,7 @@ It could be site name, domain name or app name.
 ##### 找到安全的密碼<br>Search secure password 
 隨即查到密碼 ASCII(32-126)、建議的使用者名稱 ASCII(48-57、65-90、97-122)
 
-Quickly search a secure and unique password for you (ASCII ranges 32-126), recommended username (ASCII ranges 48-57, 65-90, 97-122).
+It quickly searches a secure and unique password for you (ASCII ranges 32-126), recommended username (ASCII ranges 48-57, 65-90, 97-122).
 
 
 
@@ -58,7 +58,7 @@ Quickly search a secure and unique password for you (ASCII ranges 32-126), recom
 ## 致謝<br>Acknowledgements
 本專案的設計參考 [MSPasswordGenerator](https://github.com/Ayukawayen/MSPasswordGenerator) 的構想。
 
-This repo is created upon the concept of MSPasswordGenerator.
+This repository is created upon the concept of MSPasswordGenerator.
 
 本專案藉助 [ISAAC](https://www.burtleburtle.net/bob/c/readable.c) 生成安全的密碼。
 
