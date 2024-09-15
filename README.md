@@ -24,7 +24,7 @@ If you prefer convenience of cross-device synchronization of your passwords, you
 
 除了你，沒有人可以用任何方式知道你使用IsaacVault查詢的密碼，但除非攻擊者知道你的 mkey 和 skey (，所以請妥善保管你的mainkey)。由於 ISAAC 具有不低於 [2^40 的週期](https://www.burtleburtle.net/bob/rand/isaacafa.html)，如果攻擊者不是同時知道你的 mkey 與 skey，就無法同時知道你的密碼。如果攻擊者只知道你的一個密碼，他無法透過任何方法計算出你的 mkey 與 skey。
 
-You and attacker who knows your mkey and skey can access your passwords in IsaacVualt (, so please keep mkey invisible to anyone). Since ISAAC has a period of no less than 2^40, if an attacker don't know your mkey and skey at the same time, he can't know your passwords. If one of your password leaks to an attacker, he can never know mkey or skey, until ISAAC cipher is broken.
+You and attacker who knows your mkey and skey can access your passwords in IsaacVualt (, so please keep mkey invisible to anyone). Since ISAAC has a period of no less than 2^40, if attacker don't know your mkey and skey at the same time, he can't know your passwords. If one of your password leaks to attacker, he can never know mkey or skey, until ISAAC cipher is broken.
 
 
 ## 使用步驟
