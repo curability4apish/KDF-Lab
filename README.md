@@ -6,7 +6,7 @@
 
 *我可以不使用密碼管理工具，反而使用筆記軟體或文字檔記錄自己的密碼嗎？* 你可以這麼做，不過多一層密碼保護你所記錄密碼的工具，能避免間諜軟體之類未經授權的存取或系統性漏洞造成的密碼外洩風險。
 
-*Instead of using a password manager, why not just use a note software or a text file to jot down my passwords?* Of course you can, but  encrypting your passwords can mitigate the risks from unauthorized access by spyware or systematic flaws.
+*Instead of a password manager, why not just use a note software or a text file to jot down my passwords?* Of course you can, but  encrypting your passwords can mitigate the risks from unauthorized access by spyware or systematic flaws.
 
 ## 為什麼要使用 IsaacVault<br>Why IsaacVault?
 
