@@ -1,8 +1,8 @@
 
 ## 為什麼要使用密碼管理工具<br>Why Password manager?
-我可以不使用密碼管理工具，反而使用幾組自己能記得的密碼就好了嗎？你可以這麼做，不過當你所註冊的平台發生大規模的[資料外洩](https://haveibeenpwned.com/)，你用相同的信箱與密碼所註冊的其他平台也將面臨遭駭的風險。
+*我可以不使用密碼管理工具，反而使用幾組自己能記得的密碼就好了嗎？*你可以這麼做，不過當你所註冊的平台發生大規模的[資料外洩](https://haveibeenpwned.com/)，你用相同的信箱與密碼所註冊的其他平台也將面臨遭駭的風險。
 
-Instead of a password manager, why not just use several memorable passwords? Of course you can, but when the platforms you have registered happen to breach data due to cyber security flaws, and that you also register another platform with the same email and password, those account have risks of being pwned.
+*Instead of a password manager, why not just use several memorable passwords?* Of course you can, but when the platforms you have registered happen to breach data due to cyber security flaws, and that you also register another platform with the same email and password, those account have risks of being pwned.
 
 我可以不使用密碼管理工具，反而使用筆記軟體或文字檔記錄自己的密碼嗎？你可以這麼做，不過多一層密碼保護你所記錄密碼的工具，能避免間諜軟體之類未經授權的存取或系統性漏洞造成的密碼外洩風險。
 
