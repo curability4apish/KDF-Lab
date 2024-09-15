@@ -27,8 +27,8 @@ If you prefer convenience of cross-device synchronization of your passwords, you
 You and attacker who knows your mkey and skey can access your passwords in IsaacVualt (, so please keep mkey invisible to anyone). Since ISAAC has a period of no less than 2^40, if attacker don't know your mkey and skey at the same time, he can't know your passwords. If one of your password leaks to attacker, he can never know mkey or skey, until ISAAC cipher is broken.
 
 
-## 使用步驟
-##### 設定你的主金鑰
+## 使用步驟<br>How to use
+##### 設定你的主金鑰<
 預設10位的 ASCII(32~126)。若遺失，你將無法查詢密碼，故請妥站保存。
 ##### 輸入你的網站金鑰
 可為 網站名稱、應用程式包名 或 網站域名
