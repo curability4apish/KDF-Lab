@@ -8,9 +8,12 @@ Instead of a password manager, why not just use several memorable passwords? Of 
 
 Instead of using a password manager, why not just use a note software or a text file to jot down my passwords? Of course you can, but  encrypting your passwords can mitigate the risks from unauthorized access by spyware or systematic flaws.
 
-## 為什麼要使用 IsaacVault
-##### 零足跡
+## 為什麼要使用 IsaacVault<br>Why IsaacVault?
+
+##### 零足跡<br>Traceless
 它透過 [ISAAC](https://en.wikipedia.org/wiki/ISAAC_(cipher)) [安全亂數產生器](https://zh.wikipedia.org/zh-tw/%E5%AF%86%E7%A0%81%E5%AD%A6%E5%AE%89%E5%85%A8%E4%BC%AA%E9%9A%8F%E6%9C%BA%E6%95%B0%E7%94%9F%E6%88%90%E5%99%A8)的驅動與你的 mainkey、sitekey 為你查詢安全的密碼。因此它不需要網路權限，也不會儲存任何密碼到裝置，以此確保安全性。
+
+Driven by ISAAC CSPRNG, it search a secure and unique password for you according to your **mainkey** and **sitekey**. No interter connection required, and no storage permission granted.
 ##### 無網路權限
 如果你注重密碼跨裝置同步的方便性，你可以選擇線上密碼管理工具。如果你更注重密碼的控制權，或者對任何線上密碼管理提供商的隱私政策或安全性保持疑慮，也許 IsaacVault 就是你正在找的。
 ##### 零知識密碼生成與管理
