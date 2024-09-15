@@ -28,12 +28,23 @@ You and attacker who knows your mkey and skey can access your passwords in Isaac
 
 
 ## 使用步驟<br>How to use
-##### 設定你的主金鑰<
-預設10位的 ASCII(32~126)。若遺失，你將無法查詢密碼，故請妥站保存。
-##### 輸入你的網站金鑰
+##### 設定你的 mkey<br>Set your mkey
+
+預設10位的 ASCII(32-126)。若遺失，你將無法查詢密碼，故請妥站保存。
+
+Default mkey lengths 10, ASCII ranges 32-126. Warning: you can never retrieve your passwords if you forget your mkey.
+
+##### 輸設定你的網站金鑰<br>Set your skey
 可為 網站名稱、應用程式包名 或 網站域名
-##### 找到安全的密碼
+
+It could be site name, domain name or app name.
+
+##### 找到安全的密碼<br>Search secure password 
 隨即查到密碼 ASCII(32-126)、建議的使用者名稱 ASCII(48-57、65-90、97-122)
+
+Quickly search a secure and unique password for you (ASCII ranges 32-126), recommended username (ASCII ranges 48-57, 65-90, 97-122).
+
+
 
 ![](https://megapx-assets.dcard.tw/images/a7fe32b7-f432-46b5-9533-6f845803f46d/1280.webp)
 
@@ -44,9 +55,15 @@ You and attacker who knows your mkey and skey can access your passwords in Isaac
 - [ ] Telegram Bot
 - [ ] 透過密碼學分析進一步檢驗 IsaacVault 的安全性。
 
-## 致謝
+## 致謝<br>Acknowledgements
 本專案的設計參考 [MSPasswordGenerator](https://github.com/Ayukawayen/MSPasswordGenerator) 的構想。
+
+This repo is created upon the concept of MSPasswordGenerator.
+
 本專案藉助 [ISAAC](https://www.burtleburtle.net/bob/c/readable.c) 生成安全的密碼。
+
+This repo utilize ISAAC to generate secure passwords.
+
 ## MIT License
 ```
 Copyright (c) 2024 bc6048
@@ -69,5 +86,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-## 專案狀態
+## 專案狀態<Repo state>
 測試中
+beta
