@@ -62,7 +62,7 @@ This repository is created upon the concept of MSPasswordGenerator.
 
 本專案藉助 [ISAAC](https://www.burtleburtle.net/bob/c/readable.c) 生成安全的密碼。
 
-This repo utilize ISAAC to generate secure passwords.
+This repository utilize ISAAC to generate secure passwords.
 
 ## MIT License
 ```
