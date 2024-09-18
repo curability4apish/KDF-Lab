@@ -55,7 +55,7 @@ It quickly searches a secure and unique password for you (ASCII ranges 32-126), 
 - [ ] Telegram Bot
 - [ ] 透過密碼學分析進一步檢驗 IsaacVault 的安全性。
 
-## Thanks<br>Acknowledgements
+## 致謝<br>Thanks
 本專案的設計參考 [MSPasswordGenerator](https://github.com/Ayukawayen/MSPasswordGenerator) 的構想。
 
 This repository is created upon the concept of MSPasswordGenerator.
