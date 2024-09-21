@@ -300,8 +300,8 @@ int main() {
 
     for (int i=0;i<100;i++)
     {
-      aa+=(int)(key[i]-32);
-      bb+=(int)(label[i]-32);
+      aa+=(int)(key[i])-32;
+      bb+=(int)(label[(i+1)%100])-32;
       isaac();
     }
 
