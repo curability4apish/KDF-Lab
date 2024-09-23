@@ -1,1 +1,1 @@
-
+Nothing is warranted.
