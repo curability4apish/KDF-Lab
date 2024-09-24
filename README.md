@@ -1,3 +1,4 @@
+# Preface
 Popularity isn't determinant of the security of the ciphers. Many ciphers that was once “most trusted” were broken within 30 years after their punishments.
 
 There's no reason to ditch the algorithms of many other less-known cryptographically secure ciphers that hasn't been proven to broken for more than 30 years.
