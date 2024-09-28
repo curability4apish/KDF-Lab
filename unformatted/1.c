@@ -61,8 +61,7 @@ void isaac()
    h^=a>>9;  c+=h; a+=b; \
 }
 
-void randinit(flag)
-int flag;
+void randinit(int flag)
 {
    int i;
    ub4 a,b,c,d,e,f,g,h;
